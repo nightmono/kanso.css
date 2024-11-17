@@ -1,0 +1,90 @@
+:root {
+    --font: sans-serif;
+    --fg1: #222;
+    --fg2: #888;
+    --bg1: #f8f8f8;
+    --bg2: #eee;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fg1: #eee;
+        --fg2: #555;
+        --bg1: #181818;
+        --bg2: #282828;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--fg1);
+    background-color: var(--bg1);
+    font-family: var(--font);
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 2rem 1rem 1rem;
+    box-sizing: content-box;
+}
+
+a {
+    color: var(--fg1);
+    font-weight: 600;
+}
+
+small {
+    font: inherit;
+    color: var(--fg2);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+textarea,
+input,
+select,
+button {
+    font: inherit;
+    color: var(--fg1);
+    padding: 0.25rem 0.5rem;
+    background-color: var(--bg2);
+    border: 1px solid var(--fg2);
+    border-radius: 4px;
+}
+
+textarea,
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 100%;
+}
+
+button {
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all .2s;
+}
+
+button[type="submit"] {
+    color: var(--bg1);
+    background-color: var(--fg1);
+    border-color: var(--fg1);
+}
+
+button:disabled {
+    color: var(--fg2);
+    background-color: var(--bg2);
+    border: var(--bg2);
+    cursor: not-allowed;
+}
+
+button:hover {
+    opacity: .8;
+}
