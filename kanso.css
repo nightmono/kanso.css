@@ -69,7 +69,7 @@ button {
     font-weight: 600;
     padding: 0.5rem 1rem;
     border-radius: 8px;
-    transition: all .2s;
+    transition: opacity .2s;
 }
 
 button[type="submit"] {

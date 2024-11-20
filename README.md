@@ -2,10 +2,9 @@
 
 A classless CSS template for simple forms and web pages.
 
-In Japanese, Kanso translates to simplicity or purity, advocating for the elimination of the unnecessary. I wanted a template that reflected this philosophy, offering a clean, minimal, and distraction-free experience that can be added onto.
-Features
+In Japanese, Kanso translates to simplicity, advocating for the elimination of the unnecessary. I wanted a template that reflected this philosophy, offering a clean, minimal, and distraction-free experience that can be added onto.
 
-**More details over at the [Home Page.](https://nightmono.com/kanso.css/)**
+**More details can found in the [home page.](https://nightmono.com/kanso.css/)**
 
 ![Preview Image](/preview.png)
 
